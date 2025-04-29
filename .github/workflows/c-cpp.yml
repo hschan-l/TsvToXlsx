@@ -12,6 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Install Autotools
+      run: sudo apt-get install -y autoconf automake libtool
+    - name: Generate configure
+      run: autoreconf -fiv
     - uses: actions/checkout@v4
     - name: configure
       run: ./configure
