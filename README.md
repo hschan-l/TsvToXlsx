@@ -8,5 +8,5 @@ No need with BOM.
 # Library 
 miniz
 
-# support OS
+# Support OS
 Win32 win64
