@@ -5,4 +5,8 @@ Convert TSV file to Xlsx file.
 Source file must be coding UTF-8 with tabs text file.\
 No need with BOM.
 
+# Library 
+miniz
+
+# support OS
 Win32 win64
