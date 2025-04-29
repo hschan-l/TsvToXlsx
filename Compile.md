@@ -9,9 +9,11 @@ cl TsvToXlsx.cpp miniz\miniz.c miniz\miniz_tdef.c miniz\miniz_tinfl.c miniz\mini
 <a href='https://learn.microsoft.com/en-us/cpp/build/reference/std-specify-language-standard-version?view=msvc-170#stdc17'>C++17</a> standard. </p>
 
 
-# miniz files
-- miniz.c 
+# zip library
+- miniz.h
+- miniz.c
 - mlminiz_tdef.c 
 - miniz_tinfl.c 
 - miniz_zip.c
 
+download from  https://github.com/richgel999/miniz
